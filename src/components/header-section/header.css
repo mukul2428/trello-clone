@@ -1,0 +1,35 @@
+.header-logo {
+  align-items: center;
+}
+.header-container {
+  max-width: 1320px;
+  margin: 0 auto;
+  height: 60px;
+}
+.header-btn {
+  background: none;
+  border: transparent;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 1.25rem 1rem 1rem;
+  cursor: pointer;
+}
+.header-btn:hover {
+  color: rgb(0, 101, 255);
+}
+.header-nav {
+  margin-left: auto;
+}
+.login {
+  font-size: 1.2rem;
+  padding: 0.5rem 1.5rem;
+  color: rgb(23, 43, 77);
+}
+.get-trello {
+  background-color: rgb(0, 101, 255);
+  color: rgb(255, 255, 255);
+  padding: 0.5rem 1.5rem;
+  font-size: 1.2rem;
+}
