@@ -6,10 +6,10 @@ const HeaderSection = () => {
     <>
       <header className="header-top">
         <div className="flex header-container">
-          <a className="flex padding-1 header-logo" href="/">
+          <a className="nav-logo flex padding-1 vertical-center" href="/">
             <img src={IMAGES.logo.image} alt={IMAGES.logo.alt} />
           </a>
-          <div className="flex">
+          <div className="nav-items flex">
             {NAVITEMS.map((item) => {
               return (
                 <button className="header-btn" key={item.id}>
@@ -24,7 +24,7 @@ const HeaderSection = () => {
               );
             })}
           </div>
-          <div className="flex towards-right">
+          <div className="nav-routes flex towards-right">
             <a className="anchor-none login vertical-center" href="">
               Login
             </a>
@@ -32,6 +32,13 @@ const HeaderSection = () => {
               Get Trello for free
             </a>
           </div>
+          <button className="nav-burger">
+            <div>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </button>
         </div>
       </header>
       <div style={{ height: "110vh" }}></div>
