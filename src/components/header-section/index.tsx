@@ -41,6 +41,23 @@ const HeaderSection = () => {
           </button>
         </div>
       </header>
+      <div className="nav-details">
+        {/* first nav item */}
+        <div>
+          <div className="flex">
+            <div>
+              <h3>Explore the features that help your team succeed</h3>
+              <nav className="flex">
+                <a href=""></a><a href=""></a><a href=""></a><a href=""></a>
+              </nav>
+            </div>
+            <div></div>
+          </div>
+        </div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
       <div style={{ height: "110vh" }}></div>
     </>
   );

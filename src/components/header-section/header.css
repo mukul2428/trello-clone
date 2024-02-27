@@ -50,25 +50,35 @@
   background-color: rgb(7, 71, 166);
 }
 
-.nav-burger {
+.header-container .nav-burger {
   margin-left: auto;
   background: none;
   border: transparent;
+  display: none;
 }
-.nav-burger > div{
-  position: relative;
+.nav-burger > div {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  width: 3.5rem;
+  justify-content: center;
+  align-items: center;
 }
 .nav-burger > div > span {
   height: 3px;
   width: 24px;
   background-color: rgb(23, 43, 77);
-  display: block;
   border-radius: 3px;
-  position: absolute;
-  top: 10px;
+}
+
+.nav-details{
+  height: 413.312px;
 }
 
 @media screen and (max-width: 991px) {
+  .header-container .nav-burger {
+    display: block;
+  }
   .header-container .nav-items {
     display: none;
   }
