@@ -5,6 +5,7 @@
 }
 
 .header-top {
+  background-color: rgb(255, 255, 255);
   position: sticky;
   top: 0;
   transition: background-color 0.5s ease 0s, box-shadow 0.5s ease 0s;
@@ -71,8 +72,73 @@
   border-radius: 3px;
 }
 
-.nav-details{
-  height: 413.312px;
+.nav-details {
+  height: 451.312px;
+  transition: height 0.3s ease 0s;
+}
+
+.nav-item-details-1 {
+  padding: 2rem 0px 4.75rem;
+  width: calc(200px + 50vw);
+}
+.nav-items-heading {
+  border-bottom: 1px solid rgb(223, 225, 230);
+  color: rgb(23, 43, 77);
+  font-size: 1rem;
+  padding-bottom: 1rem;
+  font-weight: 600;
+}
+.nav-item-details-1 > div {
+  align-items: start;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 0px 40px 0px auto;
+  padding: 0px 2rem 0px 1rem;
+  width: 640px;
+}
+
+.nav-item-details-2 {
+  padding: 2rem 0px 4.75rem;
+  width: calc(-200px + 50vw);
+  background-color: rgba(234, 230, 255, 0.4);
+}
+
+.header-anchor {
+  text-decoration: none;
+  padding: 1rem;
+  width: 33.3333%;
+}
+
+.link-data {
+  padding-bottom: 0.6rem;
+}
+.link-data > div {
+  padding: 0.14rem 0.71rem 0px 0.15rem;
+}
+.link-data > p {
+  color: rgb(23, 43, 77);
+}
+
+.link-data + div > p {
+  color: rgb(80, 95, 121);
+  font-size: 0.75rem;
+}
+
+.nav-items-heading + nav {
+  flex-wrap: wrap;
+  margin: 0px -1rem;
+}
+
+.met-trello-content {
+  color: rgb(80, 95, 121);
+  font-size: 0.75rem;
+  margin: 0px auto 0px calc(40px - 1rem);
+  width: 240px;
+}
+
+.met-trello {
+  border-bottom-color: rgb(153, 141, 217);
+  margin-bottom: 1rem;
 }
 
 @media screen and (max-width: 991px) {
